@@ -19,7 +19,9 @@ value = {
   "id":"test"
 }
  
-
+"""
+In the above JSON, the a sample select method is implemented as per section 5.2.2 of RFC 7047. Here, the equivalent SQL query is "Select * from Bridge". All the values in Bridge table of OVSDB is returned by the OVS server.
+"""
 
 def pingSwitch(IP, port):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
